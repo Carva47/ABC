@@ -4,12 +4,6 @@ import { FaUserCircle, FaCommentDots } from 'react-icons/fa';
 
 export function ChatsPage() {
   // Estado inicial das conversas
-  const [chats, setChats] = useState([
-    { id: 1, user: 'User1', messages: ['Olá!', 'Tudo bem?', 'Sim, e você?'] },
-    { id: 2, user: 'User2', messages: ['Oi!', 'Como vai?', 'Vou bem, obrigado!'] },
-    { id: 3, user: 'User3', messages: ['E aí?', 'Como está?'] },
-    // Adicione mais conversas conforme necessário
-  ]);
 
   return (
     <PrincipalPage>
