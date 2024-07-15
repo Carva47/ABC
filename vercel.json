@@ -4,5 +4,5 @@
     { "src": "client", "use": "@vercel/static-build" },
     { "src": "server", "use": "@vercel/node" }
   ],
-   "public": "client/public"
+   "public": "./client/public"
 }
