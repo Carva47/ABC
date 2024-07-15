@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaHome, 
          FaUsers, 
-         FaPen, 
          FaEnvelope, 
          FaBell, 
          FaSearch, 
